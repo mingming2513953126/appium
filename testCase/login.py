@@ -23,9 +23,9 @@ class testLogin(te):
     # 单点登陆这里特殊处理,不同的设备调用不同的case
     def home_login(self):
         home_logon_yaml = ""
-        if self.l_devices["deviceName"] == "JTJ4C16331013562":
+        if self.l_devices["deviceName"] == "N2F3B61571177075":
             home_logon_yaml = PATH("yaml/myinfo/home_login.yaml")
-        if self.l_devices["deviceName"] == "MSM8926":
+        if self.l_devices["deviceName"] == "N2F3B61571177075":
             home_logon_yaml = PATH("yaml/myinfo/home_login1.yaml")
         self.bc.execCase(home_logon_yaml, test_name="test_home_login", isLast="0")
 
