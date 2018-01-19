@@ -5,7 +5,7 @@ from appium import webdriver
 from common.variable import GetVariable as common
 import os
 from selenium import webdriver as web
-from seleniumrequests import Chrome
+# from seleniumrequests import Chrome
 from testBLL import  apkBase
 
 
